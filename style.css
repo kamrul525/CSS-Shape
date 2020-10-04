@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    text-align: center;
+}
+
+.main{
+    width: 100%;
+    height: 10rem;
+}
+
+.container{
+    width: 30%;
+    height: 0;
+    margin-left: 1%;
+}
+
+.up-down{
+    width: 30%;
+    height: 0;
+    margin-left: 25%;
+
+}
+
+.left-right{
+    width: 40%;
+    height: 0;
+    margin-left: 50%;
+}
+
+
+.rectangle{
+    width: 10rem;
+    height: 5rem;
+    background-color: green;
+    margin: 1rem;
+}
+
+.Square{
+    width: 10rem;
+    height: 10rem;
+    background-color: red;
+    margin: 1rem;
+}
+
+.circle{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-color: aqua;
+    margin: 1rem;
+}
+
+.triangle-up{
+    width: 0;
+    height: 0;
+    border-left: 10rem solid transparent;
+    border-right: 10rem solid transparent;
+    border-bottom: 20rem solid green;
+    margin: 1rem;
+}
+
+.triangle-down{
+    width: 0;
+    height: 0;
+    border-left: 10rem solid transparent;
+    border-right: 10rem solid transparent;
+    border-top: 20rem solid green;
+    margin: 1rem;
+}
+
+.triangle-left{
+    width: 0;
+    height: 0;
+    border-top: 5rem solid transparent;
+    border-right: 20rem solid green;
+    border-bottom: 10rem solid transparent;
+    margin: 1rem;
+}
+
+.triangle-right{
+    width: 0;
+    height: 0;
+    border-left: 20rem solid green;
+    border-top: 10rem solid transparent;
+    border-bottom: 10rem solid transparent;
+    margin: 1rem;
+}
